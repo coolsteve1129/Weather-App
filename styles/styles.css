@@ -1,10 +1,10 @@
-/* styles.css */
 
-/* Overall styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
   
   #container {
@@ -17,7 +17,6 @@ body {
     text-align: center;
   }
   
-  /* Form and input styles */
   label {
     display: block;
     margin-top: 10px;
@@ -42,7 +41,6 @@ body {
     cursor: pointer;
   }
   
-  /* Result section styles */
   #location,
   #temp,
   #windSpd,
@@ -63,24 +61,24 @@ body {
     height: auto;
   }
 
-  .weather-clear {
-    background-color: #f5d76e; /* Yellow */
+  .weather-sunny {
+    background-image: url("../images/Sunny.jpg");
   }
   
   .weather-cloudy {
-    background-color: #95a5a6; /* Gray */
+    background-image: url("../images/Cloudy.jpg");
   }
   
   .weather-rainy {
-    background-color: #2980b9; /* Blue */
+    background-image: url("../images/Rainy.jpg");
   }
   
   .weather-snowy {
-    background-color: #ecf0f1; /* White */
+    background-image: url("../images/Snowy.jpg");
   }
   
   .weather-stormy {
-    background-color: #7f8c8d; /* Dark Gray */
+    background-image: url("../images/Stormy.jpg");
   }
   
   /* Responsive styles */
