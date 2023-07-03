@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Overall styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Form and input styles */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Result section styles */
+  #location,
+  #temp,
+  #windSpd,
+  #windDir,
+  #feelsLike,
+  #cdnDesc {
+    margin-top: 5px;
+    padding: 8px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #cdnImg {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .weather-clear {
+    background-color: #f5d76e; /* Yellow */
+  }
+  
+  .weather-cloudy {
+    background-color: #95a5a6; /* Gray */
+  }
+  
+  .weather-rainy {
+    background-color: #2980b9; /* Blue */
+  }
+  
+  .weather-snowy {
+    background-color: #ecf0f1; /* White */
+  }
+  
+  .weather-stormy {
+    background-color: #7f8c8d; /* Dark Gray */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 480px) {
+    #container {
+      padding: 10px;
+    }
+  
+    input[type="text"],
+    button {
+      width: 100%;
+    }
+  }
