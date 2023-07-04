@@ -81,7 +81,6 @@ body {
     background-image: url("../images/Stormy.jpg");
   }
   
-  /* Responsive styles */
   @media (max-width: 480px) {
     #container {
       padding: 10px;
