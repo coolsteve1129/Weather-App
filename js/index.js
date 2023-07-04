@@ -43,12 +43,12 @@ function setWeatherBackground(weatherDescription) {
   const weatherClass = getWeatherClass(weatherDescription);
   const backgroundImage = new Image();
 
-  backgroundImage.onload = function() {
-    body.style.backgroundImage = `url(./images/${weatherClass}.jpg)`;
+  backgroundImage.onload = async function() {
+    body.style.backgroundImage = await `url(./images/${weatherClass}.jpg)`;
     container.style.display = "block";
   };
 
-  backgroundImage.src = `./images/${weatherClass}.jpg`;
+ backgroundImage.src = `./images/${weatherClass}.jpg`;
 }
 
 function getWeatherClass(weatherDescription) {
