@@ -11,6 +11,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
+    display: none;
   }
   
   h1 {
@@ -59,26 +60,6 @@ body {
     margin-top: 10px;
     max-width: 100%;
     height: auto;
-  }
-
-  .weather-sunny {
-    background-image: url("../images/Sunny.jpg");
-  }
-  
-  .weather-cloudy {
-    background-image: url("../images/Cloudy.jpg");
-  }
-  
-  .weather-rainy {
-    background-image: url("../images/Rainy.jpg");
-  }
-  
-  .weather-snowy {
-    background-image: url("../images/Snowy.jpg");
-  }
-  
-  .weather-stormy {
-    background-image: url("../images/Stormy.jpg");
   }
   
   @media (max-width: 480px) {
